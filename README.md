@@ -1,4 +1,6 @@
 # pytools
+[![Build Status](https://travis-ci.org/rafaelsfaria/pytools.svg?branch=main)](https://travis-ci.org/rafaelsfaria/pytools)
+
 Módulo que explica como utilizar ferramentas do python
 
 Versão de python 3.x
