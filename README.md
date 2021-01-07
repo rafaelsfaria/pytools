@@ -1,5 +1,6 @@
 # pytools
 [![Build Status](https://travis-ci.org/rafaelsfaria/pytools.svg?branch=main)](https://travis-ci.org/rafaelsfaria/pytools)
+[![codecov](https://codecov.io/gh/rafaelsfaria/pytools/branch/main/graph/badge.svg?token=YIVCYNP2NV)](https://codecov.io/gh/rafaelsfaria/pytools)
 
 Módulo que explica como utilizar ferramentas do python
 
