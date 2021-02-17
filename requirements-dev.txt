@@ -9,4 +9,5 @@ toml==0.10.2
 urllib3==1.26.2
 coverage==5.3.1
 pytest-cov==2.10.1
+pytest-mock==3.5.1
 -r requirements.txt
