@@ -4,6 +4,7 @@ import pytest
 
 from libpythonpro import github_api
 
+
 @pytest.fixture
 def avatar_url(mocker):
     resultado_mock = Mock()
@@ -17,9 +18,11 @@ def avatar_url(mocker):
     get_mock.return_value = resultado_mock
     return url
 
+
 def test_buscar_avatar(avatar_url):
     url = github_api.buscar_avatar('rafaelsfaria')
     assert 'https://avatars.githubusercontent.com/u/32245266?v=4' == url
+
 
 def test_buscar_avatar_integracao():
     url = github_api.buscar_avatar('rafaelsfaria')
